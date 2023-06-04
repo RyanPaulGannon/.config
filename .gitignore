@@ -1,2 +1,3 @@
 *.packer-compile
 iterm2
+tmux/*.log
