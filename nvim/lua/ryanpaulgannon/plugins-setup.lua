@@ -72,4 +72,8 @@ return require('packer').startup(function(use)
         lazy = false
     }
 
+    -- Formatting & Linting
+    use("jose-elias-alvarez/null-ls.nvim")
+    use("jayp0521/mason-null-ls.nvim")
+
 end)
