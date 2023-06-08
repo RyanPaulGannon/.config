@@ -170,6 +170,16 @@ _G.packer_plugins = {
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
+  },
+  ["tabnine-nvim"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/tabnine-nvim",
+    url = "https://github.com/codota/tabnine-nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -189,6 +199,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vim-which-key"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/vim-which-key",
+    url = "https://github.com/liuchengxu/vim-which-key"
   }
 }
 

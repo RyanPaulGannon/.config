@@ -11,3 +11,5 @@ require("ryanpaulgannon.plugins.undotree")
 require("ryanpaulgannon.plugins.lsp")
 require("ryanpaulgannon.plugins.lualine")
 require("ryanpaulgannon.plugins.null-ls")
+require("ryanpaulgannon.plugins.tabnine")
+

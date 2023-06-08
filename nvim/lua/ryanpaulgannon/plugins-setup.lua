@@ -5,6 +5,9 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Which Key
+    use 'liuchengxu/vim-which-key'
+
     -- Telescope
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -47,6 +50,10 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- Rust LSP
+    use('rust-lang/rust.vim')
+    vim.g.rustfmt_autosave = 1
+
     -- Snippets
     use("L3MON4D3/LuaSnip")
     use("saadparwaiz1/cmp_luasnip")
@@ -75,5 +82,8 @@ return require('packer').startup(function(use)
     -- Formatting & Linting
     use("jose-elias-alvarez/null-ls.nvim")
     use("jayp0521/mason-null-ls.nvim")
+
+    -- Tabnine
+    use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
 
 end)
