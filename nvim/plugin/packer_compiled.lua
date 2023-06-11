@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -173,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["rust.vim"] = {
-    loaded = true,
-    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/rust.vim",
-    url = "https://github.com/rust-lang/rust.vim"
   },
   ["tabnine-nvim"] = {
     loaded = true,

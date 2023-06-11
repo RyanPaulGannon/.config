@@ -50,9 +50,9 @@ return require('packer').startup(function(use)
         }
     }
 
-    -- Rust LSP
-    use('rust-lang/rust.vim')
-    vim.g.rustfmt_autosave = 1
+    -- Auto pairs
+    use('windwp/nvim-autopairs')
+    
 
     -- Snippets
     use("L3MON4D3/LuaSnip")
