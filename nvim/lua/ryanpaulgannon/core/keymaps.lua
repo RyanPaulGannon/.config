@@ -11,7 +11,7 @@ keymap.set("n", "<C-b>", ":tabp<CR>")
 keymap.set("n", "<C-c>", ":tabclose<CR>")
 
 -- Tree Toggle
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
 
 -- Yank to system clipboard
 keymap.set("n", "<leader>y", "\"+y")
