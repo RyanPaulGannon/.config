@@ -13,12 +13,11 @@ keymap.set("n", "<leader>y", "\"+y")
 -- Which Key
 keymap.set('n', '<leader>', "<cmd>WhichKey '<Space>'<CR>", { silent = true })
 
--- Tabnin
-keymap.set('n', '<C-tab', ':tabnine accept_keymap<CR>')
+-- Tabnine
 
 -- Git
-vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
+keymap.set("n", "<leader>gs", vim.cmd.Git)
 
 -- Undotree
-vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 

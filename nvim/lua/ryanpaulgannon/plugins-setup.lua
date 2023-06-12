@@ -5,6 +5,9 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Theme
+    use { "catppuccin/nvim", as = "catppuccin" }
+
     -- Which Key
     use 'liuchengxu/vim-which-key'
 
@@ -53,15 +56,11 @@ return require('packer').startup(function(use)
     -- Auto pairs
     use('windwp/nvim-autopairs')
     
-
     -- Snippets
     use("L3MON4D3/LuaSnip")
     use("saadparwaiz1/cmp_luasnip")
     use("rafamadriz/friendly-snippets")
     
-    -- Theme
-    use { "catppuccin/nvim", as = "catppuccin" }
-
     -- Neo-Tree
     use {
         "nvim-neo-tree/neo-tree.nvim",
