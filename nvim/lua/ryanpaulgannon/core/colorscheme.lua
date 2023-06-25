@@ -28,3 +28,5 @@ catppuccin.setup {
     },
 }
 vim.cmd("colorscheme catppuccin")
+vim.cmd([[highlight! CursorLine   guibg=none cterm=NONE ctermbg=NONE]])
+
