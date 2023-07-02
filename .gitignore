@@ -2,3 +2,4 @@
 iterm2
 tmux/*.log
 plugin/packer_compiled.lua
+configstore
