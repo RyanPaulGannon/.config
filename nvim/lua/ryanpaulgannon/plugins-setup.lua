@@ -6,7 +6,8 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     -- Theme
-    use { "catppuccin/nvim", as = "catppuccin" }
+    --  use { "catppuccin/nvim", as = "catppuccin" }
+    use('folke/tokyonight.nvim')
 
     -- Which Key
     use 'liuchengxu/vim-which-key'
