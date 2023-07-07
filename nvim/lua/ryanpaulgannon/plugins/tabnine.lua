@@ -1,5 +1,5 @@
   require('tabnine').setup({
-    disable_auto_comment = true,
+    disable_auto_comment = false,
     accept_keymap = "<C-[>",
     dismiss_keymap = "<C-]>",
     debounce_ms = 800,

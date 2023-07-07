@@ -1,6 +1,5 @@
-*.packer-compile
+*.packer_compiled
 iterm2
 tmux/*.log
 tmux/plugins
-plugin/packer_compiled.lua
 configstore

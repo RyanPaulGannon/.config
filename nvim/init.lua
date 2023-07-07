@@ -1,7 +1,7 @@
 -- core
 require("ryanpaulgannon.core.keymaps")
 require("ryanpaulgannon.core.options")
-require("ryanpaulgannon.core.theme")
+require("ryanpaulgannon.core.colorscheme")
 -- plugins
 require("ryanpaulgannon.plugins.telescope")
 require("ryanpaulgannon.plugins.treesitter")
