@@ -8,7 +8,12 @@ keymap.set("n", "<leader>pv", vim.cmd.Ex)
 keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
 
 -- Yank to system clipboard
+
 keymap.set("n", "<leader>y", "\"+y")
+
+-- Move Lines
+keymap.set("n", "J", ":m '>+1<CR>gv=gv")
+keymap.set("n", "K", ":m '<-2<CR>gv=gv")
 
 -- Which Key
 keymap.set('n', '<leader>', "<cmd>WhichKey '<Space>'<CR>", { silent = true })
@@ -21,3 +26,6 @@ keymap.set("n", "<leader>gs", vim.cmd.Git)
 -- Undotree
 keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
+-- Others
+keymap.set('n', '<C-d>', '<C-d>zz')
+keymap.set('n', '<C-u>', '<C-d>zz')
