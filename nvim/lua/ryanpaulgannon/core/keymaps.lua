@@ -12,8 +12,8 @@ keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
 keymap.set("n", "<leader>y", "\"+y")
 
 -- Move Lines
-keymap.set("n", "J", ":m '>+1<CR>gv=gv")
-keymap.set("n", "K", ":m '<-2<CR>gv=gv")
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Which Key
 keymap.set('n', '<leader>', "<cmd>WhichKey '<Space>'<CR>", { silent = true })
