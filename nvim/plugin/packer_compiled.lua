@@ -219,6 +219,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/vim-which-key",
     url = "https://github.com/liuchengxu/vim-which-key"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 

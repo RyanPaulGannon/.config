@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
     -- Theme
     use { "catppuccin/nvim", as = "catppuccin" }
     use('folke/tokyonight.nvim')
+    use 'Mofiqul/vscode.nvim'
 
     -- Which Key
     use 'liuchengxu/vim-which-key'
