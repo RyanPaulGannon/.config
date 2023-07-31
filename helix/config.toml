@@ -3,16 +3,16 @@ theme = "tokyonight"
 [editor]
 line-number = "relative"
 true-color = true
-cursorline = true
+cursorline = false
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 
 [keys.insert]
 j = { k = "normal_mode" }
 
 [editor.cursor-shape]
-insert = "bar"
 normal = "block"
-select = "underline"
+select = "block"
+insert = "block"
 
 [editor.lsp]
 display-messages = true
