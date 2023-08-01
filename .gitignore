@@ -3,3 +3,4 @@ iterm2
 tmux/*.log
 tmux/plugins
 configstore
+simple-update-notifier/
