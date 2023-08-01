@@ -1,0 +1,7 @@
+inherits = "rose_pine"
+
+"ui.background" = ""
+"ui.help" = ""
+"ui.statusline" = ""
+
+"comment" = "#7f7f7f"

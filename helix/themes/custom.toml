@@ -1,6 +1,0 @@
-inherits = "catppuccin_mocha"
-
-"ui.background" = {} 
-"comment" = "red"
-"keyword.control.conditional" = { fg = "teal" }
-"variable.parameter" = { fg = "red"}
