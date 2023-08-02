@@ -4,6 +4,7 @@ theme = "rose_pine"
 line-number = "relative"
 true-color = true
 cursorline = false
+bufferline = "always"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 
 [keys.insert]
@@ -32,3 +33,4 @@ mode.select = "SELECT"
 [keys.normal]
 C-s = [":fmt", ":w"]
 C-f = ":fmt"
+N = ":bn"
