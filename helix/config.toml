@@ -28,3 +28,7 @@ mode.select = "SELECT"
 
 [editor.file-picker]
 "hidden" = false
+
+[keys.normal]
+C-s = [":fmt", ":w"]
+C-f = ":fmt"
