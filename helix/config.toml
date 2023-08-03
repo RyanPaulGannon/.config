@@ -6,6 +6,7 @@ true-color = true
 cursorline = false
 bufferline = "always"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+text-width = 100
 
 [keys.insert]
 j = { k = "normal_mode" }
@@ -34,3 +35,4 @@ mode.select = "SELECT"
 C-s = [":fmt", ":w"]
 C-f = ":fmt"
 N = ":bn"
+E = ":bc"
