@@ -35,7 +35,8 @@ mode.select = "SELECT"
 [keys.normal]
 C-s = [":fmt", ":w"]
 C-f = ":fmt"
-N = ":bn"
+N = ":bp"
+M = ":bn"
 E = ":bc"
 e = ":o .env"
 
