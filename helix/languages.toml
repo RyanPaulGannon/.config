@@ -1,6 +1,11 @@
 [[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
 name = "typescript"
-formatter = { command = 'prettier', args = ["--parser, typescript"]}
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
 
 [[language]]
@@ -11,6 +16,3 @@ injection-regex = "vue"
 language-server = { command = "vue-language-server", args = ["--stdio"] }
 roots = ["package.json"]
 scope = "text.html.vue"
-
-[language.config.typescript]
-tsdk = "/usr/local/lib/node_modules/typescript/lib"
