@@ -1,6 +1,6 @@
 # Syntax highlighting
 # -------------------
-"type" = "yellow"
+"type" = "peach"
 
 "constructor" = "sapphire"
 
@@ -16,16 +16,17 @@
 "comment" = { fg = "overlay1" }
 
 "variable" = "text"
-"variable.parameter" = { fg = "maroon" }
+"variable.parameter" = "text"
 "variable.builtin" = "red"
-"variable.other.member" = "teal"
+"variable.other.member" = "flamingo"
 
 "label" = "sapphire" # used for lifetimes
 
 "punctuation" = "overlay2"
+"punctuation.bracket" = "red"
 "punctuation.special" = "sky"
 
-"keyword" = "mauve"
+"keyword" = "red"
 "keyword.control.conditional" = { fg = "mauve" }
 
 "operator" = "sky"
@@ -62,8 +63,8 @@
 # --------------
 "ui.background" = ""
 
-"ui.linenr" = { fg = "surface1" }
-"ui.linenr.selected" = { fg = "lavender" }
+"ui.linenr" = { fg = "text" }
+"ui.linenr.selected" = { fg = "mauve" }
 
 "ui.statusline" = { fg = "subtext1", bg = "" }
 "ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
@@ -86,7 +87,7 @@
 "ui.virtual" = "overlay0"
 "ui.virtual.ruler" = { bg = "surface0" }
 "ui.virtual.indent-guide" = "surface0"
-"ui.virtual.inlay-hint" = { fg = "sky" }
+"ui.virtual.inlay-hint" = { fg = "subtext1", bg = "surface2" }
 
 "ui.selection" = { bg = "surface1" }
 
