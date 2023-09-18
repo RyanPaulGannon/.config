@@ -39,7 +39,7 @@ D = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
 N = ":bp"
 M = ":bn"
 E = ":bc"
-e = ":o .env"
+V = ":o .env"
 W = ":w!"
 
 # line-up
