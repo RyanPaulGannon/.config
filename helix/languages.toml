@@ -1,18 +1,15 @@
 [[language]]
 name = "javascript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 
 [[language]]
 name = "typescript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 
 [[language]]
 name = "vue"
 auto-format = true
-file-types = ["vue"]
-injection-regex = "vue"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 language-server = { command = "vue-language-server", args = ["--stdio"] }
-roots = ["package.json"]
-scope = "text.html.vue"

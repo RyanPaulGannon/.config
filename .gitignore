@@ -4,3 +4,4 @@ tmux/*.log
 tmux/plugins
 configstore
 simple-update-notifier/
+qmk_firmware-crkbd-rev1-ryanpaulgannon
