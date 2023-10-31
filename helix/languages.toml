@@ -11,5 +11,16 @@ formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 [[language]]
 name = "vue"
 auto-format = true
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
-language-server = { command = "vue-language-server", args = ["--stdio"] }
+scope = "source.vue"
+injection-regex = "vue"
+file-types = ["vue"]
+# language-servers = [ "volar", "eslint"]
+formatter = {command = 'prettier', args= ["--parser", "vue"]}
+roots = ["package.json", "vue.config.js", ".prettierrc.json"]
+
+ [language-server.volar]
+ command = "vue-language-server"
+ args = ["--stdio"]
+
+ [language-server.volar.config]
+ typescript = { tsdk = "./node_modules/typescript/lib" }
