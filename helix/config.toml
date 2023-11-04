@@ -45,4 +45,4 @@ W = ":w!"
 # line-up
 C-e = ["keep_primary_selection","extend_line","yank","move_line_up","open_above","normal_mode","replace_with_yanked", "move_line_down", "move_line_down", "extend_line", "delete_selection", "move_line_up", "move_line_up"]
 # line-down
-C-g = ["keep_primary_selection","extend_line","delete_selection", "paste_after", "move_line_down", "move_line_up"]
+C-f = ["keep_primary_selection","extend_line","delete_selection", "paste_after", "move_line_down", "move_line_up"]
