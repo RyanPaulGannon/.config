@@ -34,7 +34,7 @@ mode.select = "SELECT"
 
 [keys.normal]
 C-s = [":fmt", ":w"]
-C-f = ":fmt"
+F = ":fmt"
 D = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
 N = ":bp"
 M = ":bn"
