@@ -1,1 +1,1 @@
-require('ryanpaulgannon.remap')
+require('ryanpaulgannon')
