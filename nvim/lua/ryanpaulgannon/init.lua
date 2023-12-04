@@ -1,4 +1,7 @@
 require('ryanpaulgannon.remap')
+require('ryanpaulgannon.options')
 require('ryanpaulgannon.plugins.telescope')
 require('ryanpaulgannon.plugins.rose-pine')
 require('ryanpaulgannon.plugins.treesitter')
+require('ryanpaulgannon.plugins.lsp')
+require('ryanpaulgannon.plugins.fugitive')
