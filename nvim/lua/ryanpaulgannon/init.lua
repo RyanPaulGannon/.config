@@ -1,5 +1,8 @@
-require('ryanpaulgannon.remap')
-require('ryanpaulgannon.options')
+-- core
+require("ryanpaulgannon.core.keymaps")
+require("ryanpaulgannon.core.options")
+
+-- plugins
 require('ryanpaulgannon.plugins.telescope')
 require('ryanpaulgannon.plugins.rose-pine')
 require('ryanpaulgannon.plugins.treesitter')
