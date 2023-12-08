@@ -14,7 +14,7 @@ auto-format = true
 scope = "source.vue"
 injection-regex = "vue"
 file-types = ["vue"]
-# language-servers = [ "volar", "eslint"]
+language-servers = [ "volar", "eslint"]
 formatter = {command = 'prettier', args= ["--parser", "vue"]}
 roots = ["package.json", "vue.config.js", ".prettierrc.json"]
 
