@@ -1,1 +1,1 @@
-~~Vim~~ Helix, tmux and corne config
+Vim ~~Helix~~, tmux and corne config
