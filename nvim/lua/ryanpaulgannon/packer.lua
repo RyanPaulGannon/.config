@@ -8,7 +8,8 @@ return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- TMUX
-	use({ "alexghergh/nvim-tmux-navigation" })
+	use("alexghergh/nvim-tmux-navigation")
+	use("christoomey/vim-tmux-navigator")
 
 	-- Telescope
 	use({
