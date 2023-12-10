@@ -5,8 +5,6 @@ require("conform").setup({
 		-- Use a sub-list to run only the first available formatter
 		javascript = { "prettier" },
 		typescript = { "prettier" },
-		javascriptvue = { "prettier" },
-		typescriptvue = { "prettier" },
 		css = { "prettier" },
 		html = { "prettier" },
 		["*"] = { "codespell" },
