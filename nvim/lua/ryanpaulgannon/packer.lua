@@ -60,4 +60,15 @@ return require("packer").startup(function(use)
 		"nvim-lualine/lualine.nvim",
 		requires = { "nvim-tree/nvim-web-devicons", opt = true },
 	})
+
+	-- Undo Tree
+	use("mbbill/undotree")
+
+	-- Harpoon
+	use("nvim-lua/plenary.nvim") -- don't forget to add this one if you don't have it yet!
+	use({
+		"ThePrimeagen/harpoon",
+		branch = "harpoon2",
+		requires = { { "nvim-lua/plenary.nvim" } },
+	})
 end)
