@@ -11,3 +11,6 @@ keymap.set("n", "<leader>Y", [["+Y]])
 
 -- Undo Tree
 keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+
+-- Clear highlighting
+keymap.set("n", "<leader>c", ":nohl<CR>", { silent = true })
