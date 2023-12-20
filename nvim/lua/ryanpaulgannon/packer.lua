@@ -74,4 +74,7 @@ return require("packer").startup(function(use)
 
 	-- Tabnine
 	use({ "codota/tabnine-nvim", run = "./dl_binaries.sh" })
+
+	-- Comment
+	use("numToStr/Comment.nvim")
 end)
