@@ -59,3 +59,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
+void keyboard_post_init_user(void) {
+    rgb_matrix_enable_noeeprom();
+    rgb_matrix_mode(1); // solid color
+    rgb_matrix_sethsv_noeeprom(HSV_CYAN);
+}
