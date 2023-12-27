@@ -94,10 +94,20 @@ _G.packer_plugins = {
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   ["conform.nvim"] = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   harpoon = {
     loaded = true,
@@ -138,11 +148,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-tmux-navigation"] = {
-    loaded = true,
-    path = "/Users/ryanpaulgannon/.local/share/nvim/site/pack/packer/start/nvim-tmux-navigation",
-    url = "https://github.com/alexghergh/nvim-tmux-navigation"
   },
   ["nvim-treesitter"] = {
     loaded = true,

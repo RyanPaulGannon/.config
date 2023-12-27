@@ -35,7 +35,7 @@ lsp_zero.on_attach(function(client, bufnr)
 	end, opts)
 end)
 
-require("mason").setup({})
+require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = { "tsserver", "rust_analyzer" },
 	handlers = {
@@ -65,11 +65,14 @@ require("mason-lspconfig").setup({
 local cmp = require("cmp")
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
+require("luasnip.loaders.from_vscode").lazy_load()
+
 cmp.setup({
 	sources = {
 		{ name = "path" },
 		{ name = "nvim_lsp" },
 		{ name = "nvim_lua" },
+		{ name = "luasnip" },
 	},
 	formatting = lsp_zero.cmp_format(),
 	mapping = cmp.mapping.preset.insert({
