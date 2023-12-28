@@ -15,6 +15,8 @@ return require("packer").startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
+	use("nvim-tree/nvim-web-devicons")
+	use({ "folke/trouble.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } })
 	-- Colorscheme
 	use({ "rose-pine/neovim", as = "rose-pine" })
 	-- Treesitter

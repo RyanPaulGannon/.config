@@ -14,3 +14,8 @@ keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
 -- Clear highlighting
 keymap.set("n", "<leader>c", ":nohl<CR>", { silent = true })
+
+-- Trouble
+vim.keymap.set("n", "<leader>t", function()
+	require("trouble").toggle()
+end)
