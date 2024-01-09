@@ -3,6 +3,11 @@ local keymap = vim.keymap
 keymap.set("n", "E", vim.cmd.Ex)
 keymap.set("n", "<C-w>", ":w<CR>")
 
+-- Buffers
+keymap.set("n", "<leader>bd", vim.cmd.bdelete)
+keymap.set("n", "<leader>bn", vim.cmd.bnext)
+keymap.set("n", "<leader>bp", vim.cmd.bprevious)
+
 -- Yank to system clipboard
 keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 keymap.set("n", "<leader>Y", [["+Y]])
@@ -18,8 +23,8 @@ keymap.set("n", "<leader>t", vim.cmd.TroubleToggle)
 
 -- Fugitive
 local function showFugitiveGit()
-  if vim.fn.FugitiveHead() ~= '' then
-    vim.cmd [[
+	if vim.fn.FugitiveHead() ~= "" then
+		vim.cmd([[
     Git
     " wincmd H  " Open Git window in vertical split
     " setlocal winfixwidth
@@ -27,16 +32,16 @@ local function showFugitiveGit()
     " setlocal winfixwidth
     setlocal nonumber
     setlocal norelativenumber
-    ]]
-  end
+    ]])
+	end
 end
 
 local function toggleFugitiveGit()
-  if vim.fn.buflisted(vim.fn.bufname('fugitive:///*/.git//$')) ~= 0 then
-    vim.cmd[[ execute ":bdelete" bufname('fugitive:///*/.git//$') ]]
-  else
-    showFugitiveGit()
-  end
+	if vim.fn.buflisted(vim.fn.bufname("fugitive:///*/.git//$")) ~= 0 then
+		vim.cmd([[ execute ":bdelete" bufname('fugitive:///*/.git//$') ]])
+	else
+		showFugitiveGit()
+	end
 end
 
 vim.keymap.set("n", "<leader>gs", toggleFugitiveGit)
