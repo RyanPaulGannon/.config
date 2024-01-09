@@ -1,4 +1,11 @@
-require("rose-pine").setup({
+return {
+    {
+    'rose-pine/neovim',
+    lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    priority = 1000, -- make sure to load this before all the other start plugins
+    config = function()
+        local color = require("rose-pine")
+color.setup({
 	--- @usage 'auto'|'main'|'moon'|'dawn'
 	variant = "auto",
 	--- @usage 'main'|'moon'|'dawn'
@@ -52,6 +59,8 @@ require("rose-pine").setup({
 		Search = { bg = "gold", inherit = false },
 	},
 })
-
--- Set colorscheme after options
-vim.cmd("colorscheme rose-pine")
+      -- load the colorscheme here
+      vim.cmd([[colorscheme rose-pine]])
+    end,
+  },
+}
