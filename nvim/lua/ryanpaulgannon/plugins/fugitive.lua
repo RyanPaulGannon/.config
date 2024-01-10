@@ -1,3 +1,42 @@
 return {
 	"tpope/vim-fugitive",
+	--     config = function ()
+	--         showFugitiveGit()
+	-- 	if vim.fn.FugitiveHead() ~= "" then
+	-- 		vim.cmd([[
+	--     Git
+	--     " wincmd H  " Open Git window in vertical split
+	--     " setlocal winfixwidth
+	--     " vertical resize 31
+	--     " setlocal winfixwidth
+	--     setlocal nonumber
+	--     setlocal norelativenumber
+	--     ]])
+	-- 	end
+	-- end
+	--     end
+	-- keys = {
+	-- 	{
+	-- 		"<leader>gs",
+	-- 		toggleFugitiveGit,
+	-- 	},
+	-- 	{
+	-- 		"<leader>gc",
+	-- 		[[:Git commit -v<CR>:startinsert<CR>]],
+	-- 		{ noremap = true, silent = true },
+	-- 	},
+	-- 	{
+	-- 		"n",
+	-- 		"<leader>gp",
+	-- 		[[:Git push<CR>]],
+	-- 		{ noremap = true, silent = true },
+	-- 	},
+	-- },
+	-- local function toggleFugitiveGit()
+	-- 	if vim.fn.buflisted(vim.fn.bufname("fugitive:///*/.git//$")) ~= 0 then
+	-- 		vim.cmd([[ execute ":bdelete" bufname('fugitive:///*/.git//$') ]])
+	-- 	else
+	-- 		showFugitiveGit()
+	-- 	end
+	-- end
 }

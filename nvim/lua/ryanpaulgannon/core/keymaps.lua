@@ -44,5 +44,6 @@ local function toggleFugitiveGit()
 	end
 end
 
-vim.keymap.set("n", "<leader>gs", toggleFugitiveGit)
-vim.api.nvim_set_keymap("n", "<leader>gc", [[:Git commit -m<CR>:startinsert<CR>]], { noremap = true, silent = true })
+keymap.set("n", "<leader>gs", toggleFugitiveGit)
+keymap.set("n", "<leader>gc", [[:Git commit -v<CR>:startinsert<CR>]], { noremap = true, silent = true })
+keymap.set("n", "<leader>gp", [[:Git push<CR>]], { noremap = true, silent = true })
