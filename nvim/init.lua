@@ -17,9 +17,6 @@ require("lazy").setup({
 	{ import = "ryanpaulgannon.plugins" },
 	-- TMUX
 	"christoomey/vim-tmux-navigator",
-	change_detection = {
-		notify = false,
-	},
 })
 
 require("ryanpaulgannon.core.keymaps")

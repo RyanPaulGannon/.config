@@ -14,6 +14,7 @@ return {
 			opts.buffer = bufnr
 
 			keymap.set("n", "K", "<cmd>:lua vim.lsp.buf.hover()<CR>", { noremap = true, silent = true })
+			keymap.set("n", "gd", "<cmd>:lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
 		end
 
 		local capabilities = cmp_nvim_lsp.default_capabilities()
