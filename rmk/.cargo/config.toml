@@ -1,2 +1,5 @@
-[target.thumbv6m-none-eabi]
-runner = "elf2uf2-rs -d"
+[build]
+target = "thumbv7em-none-eabi"
+
+[target.thumbv7em-none-eabi]
+rustflags = ["-C", "link-arg=-TLink.x"]
