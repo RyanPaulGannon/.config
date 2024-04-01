@@ -1,6 +1,6 @@
 local keymap = vim.keymap
 
-keymap.set("n", "E", vim.cmd.Ex)
+keymap.set("n", "T", vim.cmd.Ex)
 keymap.set("n", "<C-w>", ":w<CR>")
 
 -- Buffers
