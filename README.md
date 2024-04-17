@@ -1,1 +1,1 @@
-Vim ~~Helix~~, tmux and corne config
+nvim, tmux and keyboard config
