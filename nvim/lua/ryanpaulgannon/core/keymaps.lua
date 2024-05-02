@@ -3,6 +3,9 @@ local keymap = vim.keymap
 keymap.set("n", "T", vim.cmd.Ex)
 keymap.set("n", "<C-w>", ":w<CR>")
 
+-- Paste
+keymap.set("n", "<leader>p", ":set paste!<CR>", { noremap = true, silent = true })
+
 -- Buffers
 keymap.set("n", "<leader>bd", vim.cmd.bdelete)
 keymap.set("n", "<leader>bn", vim.cmd.bnext)
