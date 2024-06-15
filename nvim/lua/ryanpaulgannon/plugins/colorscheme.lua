@@ -6,10 +6,13 @@ return {
 	priority = 1000, -- make sure to load this before all the other start plugins
 	config = function()
 		require("rose-pine").setup({
-		disable_background = "true",
-		-- require("catppuccin").setup({
-		-- 	flavour = "mocha",
-		-- 	transparent_background = "true",
+			disable_background = "true",
+			styles = {
+				italic = false,
+			},
+			-- require("catppuccin").setup({
+			-- 	flavour = "mocha",
+			-- 	transparent_background = "true",
 			-- require("tokyonight").setup({
 			-- 	transparent = true,
 		})
