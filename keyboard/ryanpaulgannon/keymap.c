@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
      XXXXXXX,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,  XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     XXXXXXX, KC_A ,MT(MOD_LGUI, KC_S), MT(MOD_LSFT,KC_D), MT(MOD_LCTL,KC_F), KC_G,        KC_H, MT(MOD_RCTL,KC_J), MT(MOD_RSFT,KC_K),MT(MOD_RGUI,KC_L),KC_BSPC, XXXXXXX,
+     XXXXXXX, KC_A ,MT(MOD_LGUI, KC_S), MT(MOD_LSFT,KC_D), MT(MOD_LCTL,KC_F), MT(MOD_LALT, KC_G),        KC_H, MT(MOD_RCTL,KC_J), MT(MOD_RSFT,KC_K),MT(MOD_RGUI,KC_L),KC_BSPC, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      XXXXXXX,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
