@@ -45,14 +45,17 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
+    let mut pin_12 = pins.gpio12.into_push_pull_output();
     let mut pin_16 = pins.gpio16.into_push_pull_output();
 
     loop {
         rprintln!("Turning on");
         pin_16.set_high().unwrap();
+        pin_12.set_low().unwrap();
         delay.delay_ms(500);
         rprintln!("Turning off");
         pin_16.set_low().unwrap();
+        pin_12.set_high().unwrap();
         delay.delay_ms(500);
     }
 }

@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
      XXXXXXX, XXXXXXX, XXXXXXX, RGB_TOG, KC_VOLU, KC_BRIU,                      KC_0,    KC_1,    KC_2,    KC_3,    KC_DOT, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          XXXXXXX, XXXXXXX, KC_LGUI,   XXXXXXX, XXXXXXX,   XXXXXXX
+                                          XXXXXXX, KC_SLEEP, KC_LGUI,   XXXXXXX, XXXXXXX,   XXXXXXX
                                       //`--------------------------'  `--------------------------'
   ),
     [3] = LAYOUT_split_3x6_3(
